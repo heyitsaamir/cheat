@@ -1,0 +1,2 @@
+# List all workflows of a certain type during a period
+tctl workflow listall --query "WorkflowType='runSendDigestNotificationsV2' AND StartTime BETWEEN '2022-12-28T13:39:36-08:00' AND '2022-12-30T13:39:36-08:00'" --psa --pjson
